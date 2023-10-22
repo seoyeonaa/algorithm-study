@@ -30,6 +30,7 @@ def twoSum_mk5(nums: list[int], target: int) -> list[int]:
 
 
 # 2. 빗물 트레핑
+# A-1) 투 포인터를 쵀대로 이동
 
 height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
 
