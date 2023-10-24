@@ -5,23 +5,23 @@ import re
 # 1. 유효한 팰린드롬 확인하기
 # A-1) 리스트로 변환
 
-ex = "A man, a plan, a canal: Panama"
+char = "A man, a plan, a canal: Panama"
 
 
 def isPalindrome1(s: str) -> bool:
     strs = []
     for char in s:
-        if char.isalnum():  # 문자 여부 판단
-            strs.append(char.lower())
+        if char.isalnum():  # 영문자와, 숫자면!
+            strs.append(char.lower())  # str에 추가하겠다.
 
-    while len(strs) > 1:
-        if strs.pop(0) != strs.pop():
+    while len(strs) > 1:  # 문자가 한 개 이상 남을 때까지
+        if strs.pop(0) != strs.pop():  # 앞, 뒤로 뽑아서 문자에 일치 여부를 보겠다.
             return False
 
     return True
 
 
-isPalindrome1(ex)  # True
+isPalindrome1(char)  # True
 
 
 # A-2) 데크 자료형을 이용한 최적화 (FIFO, First In First Out)
@@ -88,7 +88,7 @@ def reverseString2(s: list[str]) -> None:
 
 reverseString2(ex)
 ex == ans
-
+s = s[::-1]
 
 # 3.로그 파일 재정렬
 # Q) 로그를 재정렬하라. 기준은 다음과 같다.
