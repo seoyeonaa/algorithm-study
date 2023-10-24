@@ -301,6 +301,8 @@ productExceptSelf(nums)
 # 한 번의 거래로 낼 수 있는 최대 이익을 산출하라
 # ex) 1일 때 사서 6일 때 팔면 5의 이익을 얻는다
 
+import sys
+
 prices = [7, 1, 5, 3, 6, 4]
 
 
