@@ -4,6 +4,7 @@ import re
 # 6장
 # 1. 유효한 팰린드롬 확인하기
 # A-1) 리스트로 변환
+
 ex = "A man, a plan, a canal: Panama"
 
 
@@ -24,6 +25,8 @@ isPalindrome1(ex)  # True
 
 
 # A-2) 데크 자료형을 이용한 최적화 (FIFO, First In First Out)
+
+
 def isPalindrome2(s: str) -> bool:
     # 자료형 데크로 선언
     strs = collections.deque()
@@ -43,6 +46,8 @@ isPalindrome2(ex)
 
 
 # A-3) 정규식 활용
+
+
 def isPalindrome3(s: str) -> bool:
     s = s.lower()
     # 정규식으로 불필요한 문자 필터링
@@ -55,9 +60,9 @@ isPalindrome3(ex)
 
 
 # 2. 문자열 뒤집기
-
 # Q) 문자열을 뒤집는 함수를 작성하라. 입력값은 문자 배열이며, 리턴없이 리스트 내부를 직접 조작하라.
 # A-1) 투 포인터를 이용한 스왑
+
 ex = ["h", "e", "l", "l", "o"]
 ans = ["o", "l", "l", "e", "h"]
 
