@@ -1,4 +1,4 @@
-# page 86; Greedy Algorithm
+# page 86; Greedy Algorithm (거스름돈)
 # 거스름돈 1260원을 동전으로 줄 시 거슬러 주는 횟수는?
 changes = 1260
 coins = [500, 100, 50, 10]
