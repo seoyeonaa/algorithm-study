@@ -118,7 +118,7 @@ reorderLogFiles(logs)
 # 4. 가장 흔한 단어
 # Q) 금지된 단어를 제외한 가장 흔하게 등장하는 단어를 출력하라. 기준은 다음과 같다.
 # 1) 대소문자를 구분하지 않는다.
-# 2) 구두점(마침표, 쉼표 등) 또한 무시한다.
+# 2) 구두점(마침표, 쉼표 등) 무시한다.
 paragraph = "Bob hit a ball, the hit BALL flew far after it was hit."
 banned = ["hit"]
 
