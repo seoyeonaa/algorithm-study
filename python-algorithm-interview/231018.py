@@ -2,6 +2,7 @@ import collections
 import re
 
 # 5. 그룹 애너그램
+# leetcode 49
 # Q) 문자열 배열을 받아 애너그램 단위로 그룹핑하라.
 ex = ["eat", "tea", "tan", "ate", "nat", "bat"]
 
@@ -19,6 +20,7 @@ groupAnagram(ex)
 
 
 # 6. 가장 긴 팰린드롬 부분 문자열
+# leetcode 5
 # Q) 가장 긴 팰린드롬 부분 문자열을 출력하라.
 ex = "babad"
 
@@ -42,6 +44,7 @@ def longestPalindrome(s: str) -> str:
 
 # 7장
 # 1. 두 수의 합
+# leetcode 1
 # 덧셈하여 타겟을 만들 수 있는 배열의 두 숫자 인덱스를 리턴하라.
 nums = [2, 7, 11, 15]
 target = 18
