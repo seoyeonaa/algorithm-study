@@ -1,3 +1,4 @@
+# leetcode 1
 # A-4) 조회 구조 개선
 # 덧셈하여 타겟을 만들 수 있는 배열의 두 숫자 인덱스를 리턴하라.
 nums = [2, 7, 11, 15]
@@ -30,6 +31,7 @@ def twoSum_mk5(nums: list[int], target: int) -> list[int]:
 
 
 # 2. 빗물 트레핑
+# leetcode 42
 # A-1) 투 포인터를 쵀대로 이동
 
 height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]
