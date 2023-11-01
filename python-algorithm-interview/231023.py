@@ -1,3 +1,4 @@
+# leetcode 15
 # A-2) 투 포인터 합 계산
 nums = [-1, 0, 1, 2, -1, -4]
 
@@ -34,6 +35,7 @@ def threeSum(nums: list[int]) -> list[list[int]]:
 
 
 # 4. 배열 파티션
+# leetcode 561
 # n개의 페어를 이용한 min(a, b)의 합으로 만들 수 있는 가장 큰 수를 출력하라
 nums = [1, 4, 2, 3]
 
@@ -78,6 +80,7 @@ def arrayPairSum(nums: list[int]) -> int:
 
 
 # 5. 자신을 제외한 배열의 곱
+# leetcode 238
 # 왼쪽 곱셈 결과에 오른쪽 값을 차례대로 곱셈 (나눗셈 X)
 nums = [1, 2, 3, 4]
 
